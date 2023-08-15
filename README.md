@@ -57,7 +57,7 @@ The resources below are provided in order to help complete this task:
 The following actions need to be taken in order to complete the assessments used within the second task for the predict: 
  - [ ] **Stream ~5min of synthetic data through your data pipeline into your S3 bucket** ([Solution file](https://github.com/Nell254/Storing-Big-Data/blob/d1bf5df4acb0c0ef06c9fc5ae01597ff29306560/code/part2/student_streaming_lambda.py))
  - [ ] **Generate custom pipeline failure SNS alert email** ([Solution file](https://github.com/Nell254/Storing-Big-Data/blob/91d7d777edf4d3833d765cf9dec633acac18553d/code/part2/student_streaming_lambda.py))
- - [ ] **Complete Task 2 MCQ**
+
 
 We wish you all the best in your learning experience 🚀!
 
