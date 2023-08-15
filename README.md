@@ -33,7 +33,7 @@ The resources below are provided in order to help complete this task:
 ### Assessments ⏱
 
 The following actions need to be taken in order to complete the assessments used within the first task for the predict: 
- - [ ] **Submit CloudFormation templates** ([SOlution](https://github.com/Nell254/Storing-Big-Data/tree/a5d63ea9e48cc6fd895e63566df4d3db750ea327/code/part1)
+ - [ ] **Submit CloudFormation templates** ([Solution](https://github.com/Nell254/Storing-Big-Data/tree/a5d63ea9e48cc6fd895e63566df4d3db750ea327/code/part1))
  - [ ] **Generate AWS File Gateway-based SNS alert email** 
 
 
