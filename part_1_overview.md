@@ -95,7 +95,7 @@ Having created the Linux template, your boss describes a catch - due to the depe
 
 Not wanting you to spend forever figuring this out, your boss reassures you with a full list of the resources and inputs that need to be included in each of the respective templates: 
 
-**VPC Template**
+**VPC Template** ([Solution](https://github.com/Nell254/Storing-Big-Data/blob/fe71c3a91a6876821defcbeb0c25d521cad25488/code/part1/Nelson-Mwembe-VPC.yaml))
 
  - *Template Inputs*: The following items represent fields which should be entered by a user when spinning up the CloudFormation VPC template as a stack. 
    - `EnvironmentName`: A string that will be prefixed onto each resource created in the template. This will be used to help identify the resources you create during the challenge. 
@@ -149,7 +149,9 @@ Not wanting you to spend forever figuring this out, your boss reassures you with
      - It should have a `GroupName` of `DE-Extract-FileGatewaySG`. 
      - It should also have an appropriately descriptive `GroupDescription`.
      - `SecurityGroupIngress` for the file gateway should permit tcp access *to and from all ports* on a given instance (ports 1 - 65534). However, only IPv4 addresses within the `VPC` should be able to communicate through the security group (corresponds to a `CidrIp` of `192.168.0.0/16`)   
-     - Finally, the security group should be given a {key: value} tag of {"Name": "DE-Extract-FileGatewaySG"} 
+     - Finally, the security group should be given a {key: value} tag of {"Name": "DE-Extract-FileGatewaySG"}
+
+       [Link to the created VPC template](https://github.com/Nell254/Storing-Big-Data/blob/fe71c3a91a6876821defcbeb0c25d521cad25488/code/part1/Nelson-Mwembe-VPC.yaml)
  
 **Windows-instance Template**
 
