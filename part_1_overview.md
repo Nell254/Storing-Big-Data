@@ -69,7 +69,7 @@ So what is YAML and how can it be used alongside CloudFormation templates in ord
 | ------------------------------------ |
 | Use the above list of instructional resources to begin your learning journey surrounding CloudFormation and its support of YAML configuration templates. You will use this knowledge to both understand and create templates in the subsections below. | 
 
-#### 2.2) Linux YAML Template - The On-Premise File Server
+#### 2.2) Create a Linux YAML Template - The On-Premise File Server ([Solution](https://github.com/Nell254/Storing-Big-Data/blob/39662ad81afcc5b812c103b8b9f10d3b000c02b3/code/part1/Nelson-Mwembe-VPC.yaml))
 
 After you've spent some time learning about YAML and CloudFormation, your boss decides it's time to give you a nudge in the right direction and asks you to create a linux YAML template that will set up the following infrastructure via AWS CloudFormation:
 
@@ -84,7 +84,9 @@ After you've spent some time learning about YAML and CloudFormation, your boss d
  - *Subnet*: A Subnet Id defining which subnet to associate with the deployed Linux instance.  
  - *Security Group*: A list of security group Id's which can be associated with the deployed instance.
  - *KeyName*: The name of a previously created AWS key pair which is associated with the Linux instance. 
- - *Linux AMI*: The Amazon Machine Image (AMI) which is used to configure the EC2 instance. This input specifies the latest version of Amazon's Linux as the AMI to use. 
+ - *Linux AMI*: The Amazon Machine Image (AMI) which is used to configure the EC2 instance. This input specifies the latest version of Amazon's Linux as the AMI to use.
+
+   [Link to the created Linux template](https://github.com/Nell254/Storing-Big-Data/blob/39662ad81afcc5b812c103b8b9f10d3b000c02b3/code/part1/Nelson-Mwembe-VPC.yaml)
 
 
 #### 2.3) Creating Additional Templates
