@@ -21,9 +21,6 @@ A detailed set of instructions guiding you through several steps of your boss's 
 
 The resources below are provided in order to help complete this task: 
 
-**Code**: 
- - [Linux instance CloudFormation YAML template](code/part1/student_linux_template.yml)
-
 **Learning Material**: 
  - [Getting Started with YAML](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started/)
  - [Using YAML for CloudFormation](https://markrichman.com/yaml-for-aws-cloudformation/)
@@ -36,7 +33,7 @@ The resources below are provided in order to help complete this task:
 ### Assessments ⏱
 
 The following actions need to be taken in order to complete the assessments used within the first task for the predict: 
- - [ ] **Submit CloudFormation templates** 
+ - [ ] **Submit CloudFormation templates** ([SOlution](https://github.com/Nell254/Storing-Big-Data/tree/a5d63ea9e48cc6fd895e63566df4d3db750ea327/code/part1)
  - [ ] **Generate AWS File Gateway-based SNS alert email** 
 
 
