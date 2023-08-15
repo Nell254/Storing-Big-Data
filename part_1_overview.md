@@ -153,7 +153,7 @@ Not wanting you to spend forever figuring this out, your boss reassures you with
 
        [Link to the created VPC template](https://github.com/Nell254/Storing-Big-Data/blob/fe71c3a91a6876821defcbeb0c25d521cad25488/code/part1/Nelson-Mwembe-VPC.yaml)
  
-**Windows-instance Template**
+**Windows-instance Template** ([Solution](https://github.com/Nell254/Storing-Big-Data/blob/e54efc775d8df3a45b8472b44d11ea9ddcb643f9/code/part1/Nelson-Mwembe-Windows-Instance.yml))
 
   - *Template Inputs*: The following items represent fields which should be entered by a user when spinning up the CloudFormation Windows instance template as a stack.
     - `KeyName`: A dropdown list enabling the selection of the key pair `KeyName` previously created in Step 1. This key pair is used to decrypt the Windows instance password generated on its instantiation.
@@ -188,6 +188,7 @@ Not wanting you to spend forever figuring this out, your boss reassures you with
       - The IAM instance profile attached to the instance should be the `WindowsInstanceProfile` resource created above. 
       - Finally, the instance should be given a {key: value} tag of {"Name": "DE-Extract-Windows-Instance"}
 
+[Link to the created Windows instance template](https://github.com/Nell254/Storing-Big-Data/blob/e54efc775d8df3a45b8472b44d11ea9ddcb643f9/code/part1/Nelson-Mwembe-Windows-Instance.yml)
 
 |    🚩 **Student Instructions** 🚩    |
 | ------------------------------------ |
