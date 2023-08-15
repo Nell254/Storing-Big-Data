@@ -188,11 +188,8 @@ Not wanting you to spend forever figuring this out, your boss reassures you with
       - The IAM instance profile attached to the instance should be the `WindowsInstanceProfile` resource created above. 
       - Finally, the instance should be given a {key: value} tag of {"Name": "DE-Extract-Windows-Instance"}
 
-[Link to the created Windows instance template](https://github.com/Nell254/Storing-Big-Data/blob/e54efc775d8df3a45b8472b44d11ea9ddcb643f9/code/part1/Nelson-Mwembe-Windows-Instance.yml)
+      [Link to the created Windows instance template](https://github.com/Nell254/Storing-Big-Data/blob/e54efc775d8df3a45b8472b44d11ea9ddcb643f9/code/part1/Nelson-Mwembe-Windows-Instance.yml)
 
-|    🚩 **Student Instructions** 🚩    |
-| ------------------------------------ |
-| Given the detailed descriptions above, write two additional YAML-based CloudFormation templates that configure the needed resources corresponding to the *VPC Template* and *Windows-instance Template*. Ensure that the *names used to describe resources and input parameters are matched exactly* within the created templates. Note that *resource Ids must not be hard-coded* into the templates, but should be referenced dynamically upon stack creation. Name the completed VPC template file with the convention `{firstname}-{surname}-VPC.yml`, e.g. `dora-explorer-VPC.yml`. Follow the same convention for the Windows-instance template: `{firstname}-{surname}-Windows-instance.yml`. |
 
 #### 2.4) Launching Infrastructure via CloudFormation
 
