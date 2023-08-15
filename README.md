@@ -1,6 +1,7 @@
 # Data Engineering: Storing Big Data Predict 
 
 © Explore Data Science Academy
+Completing this predict was one of the requirements for successfully finishing Explore AI's Data Engineering course and earning the Data Engineer certification.
 
 ## Overview 
 
