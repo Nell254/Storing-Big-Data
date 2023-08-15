@@ -59,10 +59,6 @@ The following actions need to be taken in order to complete the assessments used
  - [ ] **Generate custom pipeline failure SNS alert email** ([Solution file](https://github.com/Nell254/Storing-Big-Data/blob/91d7d777edf4d3833d765cf9dec633acac18553d/code/part2/student_streaming_lambda.py))
  - [ ] **Complete Task 2 MCQ**
 
-## FAQ ❓
-
-This section of the repo will be periodically updated to represent common questions which may arise around its use. If you detect any problems/bugs, please [create an issue](https://help.github.com/en/github/managing-your-work-on-github/creating-an-issue) and we will do our best to resolve it as quickly as possible.
-
 We wish you all the best in your learning experience 🚀!
 
 <p align='center'>
