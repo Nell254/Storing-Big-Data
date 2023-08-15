@@ -69,11 +69,9 @@ So what is YAML and how can it be used alongside CloudFormation templates in ord
 | ------------------------------------ |
 | Use the above list of instructional resources to begin your learning journey surrounding CloudFormation and its support of YAML configuration templates. You will use this knowledge to both understand and create templates in the subsections below. | 
 
-#### 2.2) Example YAML Template - The On-Premise File Server
+#### 2.2) Linux YAML Template - The On-Premise File Server
 
-After you've spent some time learning about YAML and CloudFormation, your boss decides it's time to give you a nudge in the right direction and shares the following YAML file with you: [Linux-instance-template](code/part1/student_linux_template.yml). 
-
-She explains that this template will be part of the configuration files you'll use to recreate the on-premise source connection scenario, and is responsible for setting up the following infrastructure via AWS CloudFormation: 
+After you've spent some time learning about YAML and CloudFormation, your boss decides it's time to give you a nudge in the right direction and asks you to create a linux YAML template that will set up the following infrastructure via AWS CloudFormation:
 
 **Resources Created**
  - *Linux Instance*: A `t2.micro` EC2 instance, used to simulate the file server used within the on-premise source connection scenario.   
@@ -89,13 +87,9 @@ She explains that this template will be part of the configuration files you'll u
  - *Linux AMI*: The Amazon Machine Image (AMI) which is used to configure the EC2 instance. This input specifies the latest version of Amazon's Linux as the AMI to use. 
 
 
-|    🚩 **Student Instructions** 🚩    |
-| ------------------------------------ |
-|  Study the provided YAML template used in the creation of the Linux instance and its attending services. From your learning around YAML and CloudFormation, you should aim to understand the purpose of each field and its attending properties. This template will be used in Step 2.4 in conjunction with the CloudFormation service to launch the remote file server as part of the scenario infrastructure. | 
-
 #### 2.3) Creating Additional Templates
 
-Having provided the Linux template fully implemented for you, your boss describes a catch - due to the dependencies laid out in the file, you'll first need to generate a *"VPC"* base template which sets up the requisite network infrastructure into which the above resources can be deployed. What's more, you'll also need to write a second *"Windows-instance"* template which sets up the on-premise machine which can be used to access the file server declared in the above subsection. 
+Having created the Linux template, your boss describes a catch - due to the dependencies laid out in the file, you'll first need to generate a *"VPC"* base template which sets up the requisite network infrastructure into which the above resources can be deployed. What's more, you'll also need to write a second *"Windows-instance"* template which sets up the on-premise machine which can be used to access the file server declared in the above subsection. 
 
 Not wanting you to spend forever figuring this out, your boss reassures you with a full list of the resources and inputs that need to be included in each of the respective templates: 
 
@@ -193,7 +187,7 @@ Not wanting you to spend forever figuring this out, your boss reassures you with
 
 |    🚩 **Student Instructions** 🚩    |
 | ------------------------------------ |
-| Given the detailed descriptions above, write two YAML-based CloudFormation templates that configure the needed resources corresponding to the *VPC Template* and *Windows-instance Template*. Ensure that the *names used to describe resources and input parameters are matched exactly* within the created templates. Note that *resource Ids must not be hard-coded* into the templates, but should be referenced dynamically upon stack creation. Name the completed VPC template file with the convention `{firstname}-{surname}-VPC.yml`, e.g. `dora-explorer-VPC.yml`. Follow the same convention for the Windows-instance template: `{firstname}-{surname}-Windows-instance.yml`. |
+| Given the detailed descriptions above, write two additional YAML-based CloudFormation templates that configure the needed resources corresponding to the *VPC Template* and *Windows-instance Template*. Ensure that the *names used to describe resources and input parameters are matched exactly* within the created templates. Note that *resource Ids must not be hard-coded* into the templates, but should be referenced dynamically upon stack creation. Name the completed VPC template file with the convention `{firstname}-{surname}-VPC.yml`, e.g. `dora-explorer-VPC.yml`. Follow the same convention for the Windows-instance template: `{firstname}-{surname}-Windows-instance.yml`. |
 
 #### 2.4) Launching Infrastructure via CloudFormation
 
