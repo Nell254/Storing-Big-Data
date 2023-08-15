@@ -1,7 +1,8 @@
 # Data Engineering: Storing Big Data Predict 
 
 © Explore Data Science Academy
-Completing this predict was one of the requirements for successfully finishing Explore AI's Data Engineering course and earning the Data Engineer certification.
+
+Completing this predict was one of the requirements for successfully finishing Explore AI's Data Engineering course and earning the Data Engineer certification. Links to the solutions are next to the respective assessments
 
 ## Overview 
 
@@ -35,9 +36,9 @@ The resources below are provided in order to help complete this task:
 ### Assessments ⏱
 
 The following actions need to be taken in order to complete the assessments used within the first task for the predict: 
- - [ ] **Submit CloudFormation templates**
+ - [ ] **Submit CloudFormation templates** 
  - [ ] **Generate AWS File Gateway-based SNS alert email** 
- - [ ] **Complete Task 1 MCQ**
+
 
 
 
